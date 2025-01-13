@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import About from "./sections/About"
 import Features from "./sections/Features"
 import Hero from "./sections/Hero"
+import Story from "./sections/Story"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Features/>
+      <Story/>
     </main>
   )
 }
