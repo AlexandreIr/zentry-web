@@ -52,7 +52,7 @@ function Story() {
                 title="The st<b>o</b>ry of <br /> a hidden real<b>m</b>"
                 sectionId="#story"
                 conteinerClass="mt-5 pointer-events-none 
-                mix-blend-difference relative z-10 !text-white" />
+                !mix-blend-difference relative z-10 !text-white" />
                 <div className="story-img-container">
                     <div className="story-img-mask">
                         <div className="story-img-content">
@@ -80,8 +80,10 @@ function Story() {
                         boundless pillar. Discover its secrets and 
                         shape your fate amidst infinite opportunities.
                     </p>
-                    <Button id="realm-button" title="Discover Prologue" 
-                    containerClass="mt-5 bg-blue-50"/>
+                    <a href="https://github.com/AlexandreIr" target="_blank">
+                        <Button id="realm-button" title="Discover Prologue" 
+                        containerClass="mt-5 bg-blue-50"/>
+                    </a>
                 </div>
             </div>
         </div>

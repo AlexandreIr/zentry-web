@@ -1,10 +1,8 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://www.linkedin.com/in/alexandre-fernandes-da-silva/", icon: <FaLinkedin /> },
+  { href: "https://github.com/AlexandreIr", icon: <FaGithub /> },
 ];
 
 const Footer = () => {
@@ -12,7 +10,7 @@ const Footer = () => {
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
-          ©Nova 2024. All rights reserved
+          ©<a href="https://github.com/AlexandreIr" target="_blank">AlexandreIr {new Date().getFullYear()}. All rights reserved </a>
         </p>
 
         <div className="flex justify-center gap-4  md:justify-start">
@@ -30,7 +28,7 @@ const Footer = () => {
         </div>
 
         <a
-          href="#privacy-policy"
+          href="https://github.com/AlexandreIr"
           className="text-center text-sm font-light hover:underline md:text-right"
         >
           Privacy Policy

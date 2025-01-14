@@ -140,10 +140,12 @@ function Hero() {
             Enter the Metagame Layer <br />
             Unleash the Play Economy
           </p>
-          <Button id="wahtch-trailer" 
-          title="Watch trailer" 
-          lefIcon={<TiLocationArrow/>} 
-          containerClass="bg-yellow-300 flex-center  gap-1"/>
+          <a href="https://github.com/AlexandreIr" target="_blank">
+            <Button id="wahtch-trailer" 
+            title="Watch trailer" 
+            lefIcon={<TiLocationArrow/>} 
+            containerClass="bg-yellow-300 flex-center  gap-1"/>
+          </a>
         </div>
       </div>
       </div>
